@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="dmdb">
+  <head>
+    <meta charset="utf-8">
+    <title>DMDb - Movies and more</title>
+  </head>
+  <body ng-controller="mainCtrl">
+    <main>
+      <header>
+        <div class="logo">
+          <img src="" alt="">
+        </div>
+        <div class="search">
+          <input type="text" ng-model="searchTerm" placeholder="Find Movies, TV shows, Celebrities, and more...">
+          <select ng-model="searchFilter" ng-options="">
+          </select>
+
+        </div>
+        <div class="links">
+          <div ng-click="getMovies()">
+            Movies
+          </div>
+          <div>
+            Celebrities
+          </div>
+        </div>
+      </header>
+      <article>
+        <div ng-if="movies" ng-repeat="movie in movies">
+
+        </div>
+        <div ng-if="celebs" ng-repeat="celeb in celebs">
+
+        </div>
+      </article>
+      <aside>
+        <div ng-if="movies">
+          <ul>
+            <li><a ng-click=""></a></li>
+            <li><a ng-click=""></a></li>
+          </ul>
+        </div>
+        <div ng-if="celebs">
+          <li><a ng-click=""></a></li>
+          <li><a ng-click=""></a></li>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
