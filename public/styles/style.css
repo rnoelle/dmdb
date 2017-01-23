@@ -1,3 +1,47 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  padding-top: 10vh;
+}
+main {
+  background: #333333;
+  max-width: 1008px;
+  width: 60vw;
+  margin: auto;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
 header {
   background: linear-gradient(to bottom, #646464 0%,#0e0e0e 100%);
+  padding: 15px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.search {
+  width: 65%;
+}
+.search input[type="text"]   {
+  width: 75%;
+  font-size: .75rem;
+  float: left;
+  padding: 2px;
+}
+select {
+  width: 20%;
+  padding: 2px;
+  height: 100%;
+}
+.logo, .search, select {
+  float: left;
+}
+.links {
+  float: right;
+  display: flex;
+}
+.links div {
+  padding: 0 1rem;
+  font-size: .75rem;
+  color: #efefef;
 }
