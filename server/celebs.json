@@ -1,0 +1,177 @@
+[{
+  "id": "1",
+  "name": "Michael Fassbeder",
+  "year_born": "1977",
+  "bio": "Michael Fassbender is an Irish-German actor. Fassbender's feature film debut was in the fantasy war epic 300 as a Spartan warrior; his earlier roles included various stage productions.",
+  "movie_ids": ["1","2", "3", "5"],
+  "image_url": ""
+},
+{
+  "id": "2",
+  "name": "Marion Cotillard",
+  "year_born": "1975",
+  "bio": "Marion Cotillard is a French actress, singer-songwriter, musician, environmentalist and spokesperson for Greenpeace.",
+  "movie_ids": ["1","4", "7"],
+  "image_url": ""
+},
+{
+  "id": "3",
+  "name": "James Avoy",
+  "year_born": "1979",
+  "bio": "James McAvoy is a Scottish actor. He made his acting début as a teen in 1995's The Near Room and continued to make mostly television appearances until 2003, when his feature film career began and he continued to work in both areas from then on.",
+  "movie_ids": ["2","3", "5"],
+  "image_url": ""
+},
+{
+  "id": "4",
+  "name": "Jennifer Lawrence",
+  "year_born": "1990",
+  "bio": "Jennifer Shrader Lawrence is an American actress. As of 2016, Lawrence is the highest-paid actress in the world, and her films have grossed over $5 billion worldwide.",
+  "movie_ids": ["2", "3", "5"],
+  "image_url": ""
+},
+{
+  "id": "5",
+  "name": "Kevin Bacon",
+  "year_born": "1958",
+  "bio": "Kevin Norwood Bacon is an American actor and musician. His notable films include musical-drama film Footloose, the controversial historical conspiracy legal thriller JFK, and the legal drama A Few Good Men.",
+  "movie_ids": ["2"],
+  "image_url": ""
+},
+{
+  "id": "6",
+  "name": "Hugh Jackman",
+  "year_born": "1968",
+  "bio": "Hugh Michael Jackman is an Australian actor, singer and producer. Jackman has won international recognition for his roles in variety of film genres.",
+  "movie_ids": ["3", "5", "6"],
+  "image_url": ""
+},
+{
+  "id": "7",
+  "name": "Leonardo DiCaprio",
+  "year_born": "1974",
+  "bio": "Leonardo Wilhelm DiCaprio (/dᵻˈkæpri.oʊ/; born November 11, 1974) is an American actor and film producer. DiCaprio began his career by appearing in television commercials in the early 1990s, after which he had recurring roles in various television series such as the soap opera Santa Barbara and the sitcom Growing Pains. In 1993, he began his film career by starring as Josh in Critters 3 (1991). He starred in the film adaptation of the memoir This Boy's Life (1993), and was praised for his supporting role in What's Eating Gilbert Grape (1993). He gained public recognition with leading roles in The Basketball Diaries (1995) and the romantic drama Romeo + Juliet (1996), before achieving international fame with James Cameron's epic romance Titanic (1997), which became the highest-grossing film of all time until Cameron's science fiction film Avatar (2009) overtook it.",
+  "movie_ids": ["4"],
+  "image_url": ""
+},
+{
+  "id": "8",
+  "name": "Joseph Gorden-Levitt",
+  "year_born": "1981",
+  "bio": "Hugh Michael Jackman is an Australian actor, singer and producer. Jackman has won international recognition for his roles in variety of film genres.",
+  "movie_ids": ["4", "7"],
+  "image_url": ""
+},
+{
+  "id": "9",
+  "name": "Ellen Page",
+  "year_born": "1987",
+  "bio": "Ellen Grace Philpotts-Page, known professionally as Ellen Page, is a Canadian actress. Her career began with roles in Canadian television shows including Pit Pony, Trailer Park Boys, and ReGenesis.",
+  "movie_ids": ["4", "5"],
+  "image_url": ""
+},
+{
+  "id": "10",
+  "name": "Halle Berry",
+  "year_born": "1966",
+  "bio": "Halle Maria Berry is an American actress, film producer, and former fashion model. She won an Academy Award for Best Actress in 2002 for her performance in the romantic drama Monster's Ball.",
+  "movie_ids": ["5", "6"],
+  "image_url": ""
+},
+{
+  "id": "11",
+  "name": "Patrick Stewart",
+  "year_born": "1940",
+  "bio": "Sir Patrick Stewart OBE is an English actor whose career has included roles on stage, television, and film.",
+  "movie_ids": ["5", "6"],
+  "image_url": ""
+},
+{
+  "id": "12",
+  "name": "Ian McKellen",
+  "year_born": "1939",
+  "bio": "Sir Ian Murray McKellen, CH, CBE is an English actor. He is the recipient of six Laurence Olivier Awards, a Tony Award, a Golden Globe Award, a Screen Actors Guild Award, a BIF Award, two Saturn Awards, among others.",
+  "movie_ids": ["5", "6", Hobbit III, Lord of the Rings],
+  "image_url": ""
+},
+{
+  "id": "13",
+  "name": "Stan Lee",
+  "year_born": "1922",
+  "bio": "Stan Lee is an American comic-book writer, editor, publisher, media producer, television host, actor, and former president and chairman of Marvel Comics.",
+  "movie_ids": ["6", Avengers, "3", "2"],
+  "image_url": ""
+},
+{
+  "id": "14",
+  "name": "Tom Hardy",
+  "year_born": "1977",
+  "bio": "Edward Thomas \"Tom\" Hardy is an English actor and producer. He made his debut in Ridley Scott's 2001 action film Black Hawk Down.",
+  "movie_ids": ["4", "7"],
+  "image_url": ""
+},
+{
+  "id": "15",
+  "name": "Christian Bale",
+  "year_born": "1974",
+  "bio": "Christian Charles Philip Bale is a British actor. He has starred both in blockbuster films and smaller projects from independent producers and art houses.",
+  "movie_ids": ["7", "9", "8"],
+  "image_url": ""
+},
+{
+  "id": "16",
+  "name": "Anne Hathaway",
+  "year_born": "1982",
+  "bio": "Anne Jacqueline Hathaway is an American actress and singer. Born in Brooklyn, New York and brought up in Millburn, New Jersey, Hathaway was inspired to act by her mother.",
+  "movie_ids": ["7", Les Miserables, Interstellar],
+  "image_url": ""
+},
+{
+  "id": "17",
+  "name": "Michael Caine",
+  "year_born": "1933",
+  "bio": "Sir Michael Caine, CBE is an English actor and author. Renowned for his distinctive working class cockney accent, Caine has appeared in over 115 films and is regarded as a British film icon.",
+  "movie_ids": ["7", "8", "9", Interstellar, "4", Miss Congeniality],
+  "image_url": ""
+},
+{
+  "id": "18",
+  "name": "Cillian Murphy",
+  "year_born": "1976",
+  "bio": "Cillian Murphy is an Irish actor of stage and screen. Since making his debut in his home country in the late 1990s, Murphy has also become a presence in British and American cinemas.",
+  "movie_ids": ["4", "9", "8", "7"],
+  "image_url": ""
+},
+{
+  "id": "19",
+  "name": "Morgan Freeman",
+  "year_born": "1937",
+  "bio": "Morgan Freeman is an American actor, producer and narrator. Freeman won an Academy Award in 2005 for Best Supporting Actor with Million Dollar Baby.",
+  "movie_ids": ["8", "9", "7", Now You See Me, Deep Impact, Lego Movie, March of the Penguins],
+  "image_url": ""
+},
+{
+  "id": "20",
+  "name": "Liam Neeson",
+  "year_born": "1952",
+  "bio": "Liam John Neeson, OBE, is an actor from Northern Ireland. In 1976, he joined the Lyric Players' Theatre in Belfast for two years. He then acted in the Arthurian film, Excalibur.",
+  "movie_ids": [Star Wars I, "9", "7", Lego Movie],
+  "image_url": ""
+},
+{
+  "id": "21",
+  "name": "Heath Ledger",
+  "year_born": "1979",
+  "bio": "Heathcliff Andrew \"Heath\" Ledger was an Australian actor and director. After performing roles in several Australian television and film productions during the 1990s, Ledger left for the United States in 1998 to develop his film career.",
+  "movie_ids": ["8"],
+  "image_url": ""
+},
+{
+  "id": "22",
+  "name": "Katie Holmes",
+  "year_born": "1979",
+  "bio": "Kate Noelle \"Katie\" Holmes is an American actress, model, and filmmaker who first achieved fame for her role as Joey Potter on The WB television teen drama Dawson's Creek from 1998 to 2003.",
+  "movie_ids": ["9"],
+  "image_url": ""
+},
+]

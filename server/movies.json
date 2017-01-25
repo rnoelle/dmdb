@@ -1,0 +1,111 @@
+[{
+        "id": "1",
+        "title": "Assassin's Creed",
+        "year": "2016",
+        "rating": "PG-13",
+        "genres": ["fantasy", "science fiction"],
+        "length": "140",
+        "director": "Justin Kurzel",
+        "summary": "Cal Lynch travels back in time to 15th-century Spain through a revolutionary technology that unlocks the genetic memories contained in his DNA. There, he lives out the experiences of Aguilar de Nerha, a distant relative who's also a member of the Assassins, a secret society that fights to protect free will from the power-hungry Templar Order. Transformed by the past, Cal begins to gain the knowledge and physical skills necessary to battle the oppressive organization in the present.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485292905/assassins-creed_lg5l1c.jpg"
+    },
+    {
+        "id": "2",
+        "title": "X-Men: First Class",
+        "year": "2011",
+        "rating": "PG-13",
+        "genres": ["fantasy", "thriller"],
+        "length": "132",
+        "director": "Matthew Vaughn",
+        "summary": "In the early 1960s, during the height of the Cold War, a mutant named Charles Xavier (James McAvoy) meets a fellow mutant named Erik Lehnsherr (Michael Fassbender). Despite their vastly different backgrounds -- Charles grew up with a wealthy family, while Erik lost his parents at Auschwitz -- the two become close friends. As the world teeters on the brink of a nuclear war, Charles and Erik with other mutants join forces to save humanity. However, a situation soon tears the friends apart.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485293753/xmen-first-class_loekpm.jpg"
+    },
+    {
+        "id": "3",
+        "title": "X-Men: Apocalypse",
+        "year": "2016",
+        "rating": "PG-13",
+        "genres": ["fantasy", "science fiction"],
+        "length": "147",
+        "director": "Bryan Singer",
+        "summary": "X-Men: Apocalypse is a 2016 American superhero film based on the fictional X-Men characters that appear in Marvel Comics. It is the ninth installment in the X-Men film series and a sequel to X-Men: Days of Future Past.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485292907/xmen-apocalypse_niqazd.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Inception",
+        "year": "2010",
+        "rating": "PG-13",
+        "genres": ["mystery", "science fiction"],
+        "length": "148",
+        "director": "Christopher Nolan",
+        "summary": "Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious. His skill has made him a hot commodity in the world of corporate espionage but has also cost him everything he loves. Cobb gets a chance at redemption when he is offered a seemingly impossible task: Plant an idea in someone's mind. If he succeeds, it will be the perfect crime, but a dangerous enemy anticipates Cobb's every move.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485292911/inception_booxyv.jpg"
+    },
+    {
+        "id": "5",
+        "title": "X-Men: Days of Future Past",
+        "year": "2014",
+        "rating": "PG-13",
+        "genres": ["fantasy", "thriller"],
+        "length": "158",
+        "director": "Bryan Singer",
+        "summary": "Convinced that mutants pose a threat to humanity, Dr. Bolivar Trask (Peter Dinklage) develops the Sentinels, enormous robotic weapons that can detect a mutant gene and zero in on that person. In the 21st century, the Sentinels have evolved into highly efficient killing machines. With mutants now facing extinction, Wolverine (Hugh Jackman) volunteers to go back in time and rally the X-Men of the past to help change a pivotal moment in history and thereby save their future.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485296007/xmen-days-of-future-past_ikpl6n.jpg"
+    },
+    {
+        "id": "6",
+        "title": "X-Men",
+        "year": "2000",
+        "rating": "PG-13",
+        "genres": ["fantasy", "science fiction"],
+        "length": "104",
+        "director": "Bryan Singer",
+        "summary": "X-Men is a 2000 American superhero film based on the Marvel Comics superhero team of the same name, distributed by 20th Century Fox. It is the first installment in the X-Men film series, followed by X2 in 2003 and X-Men: The Last Stand in 2006.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485297224/x-men_krhikd.jpg"
+    },
+    {
+        "id": "7",
+        "title": "The Dark Knight Rises",
+        "year": "2012",
+        "rating": "PG-13",
+        "genres": ["thriller", "action"],
+        "length": "165",
+        "director": "Christopher Nolan",
+        "summary": "It has been eight years since Batman (Christian Bale), in collusion with Commissioner Gordon (Gary Oldman), vanished into the night. Assuming responsibility for the death of Harvey Dent, Batman sacrificed everything for what he and Gordon hoped would be the greater good. However, the arrival of a cunning cat burglar (Anne Hathaway) and a merciless terrorist named Bane (Tom Hardy) force Batman out of exile and into a battle he may not be able to win.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485292907/dark-knight-rises_slmvc6.jpg"
+    },
+    {
+        "id": "8",
+        "title": "The Dark Knight",
+        "year": "2008",
+        "rating": "PG-13",
+        "genres": ["crime", "drama"],
+        "length": "152",
+        "director": "Christopher Nolan",
+        "summary": "With the help of allies Lt. Jim Gordon (Gary Oldman) and DA Harvey Dent (Aaron Eckhart), Batman (Christian Bale) has been able to keep a tight lid on crime in Gotham City. But when a vile young criminal calling himself the Joker (Heath Ledger) suddenly throws the town into chaos, the caped Crusader begins to tread a fine line between heroism and vigilantism.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485292908/dark-knight_fwoizn.jpg"
+    },
+    {
+        "id": "9",
+        "title": "Batman Begins",
+        "year": "2005",
+        "rating": "PG-13",
+        "genres": ["crime", "fantasy"],
+        "length": "140",
+        "director": "Christopher Nolan",
+        "summary": "A young Bruce Wayne (Christian Bale) travels to the Far East, where he's trained in the martial arts by Henri Ducard (Liam Neeson), a member of the mysterious League of Shadows. When Ducard reveals the League's true purpose -- the complete destruction of Gotham City -- Wayne returns to Gotham intent on cleaning up the city without resorting to murder. With the help of Alfred (Michael Caine), his loyal butler, and Lucius Fox (Morgan Freeman), a tech expert at Wayne Enterprises, Batman is born.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485292906/batman-begins_w0lisw.jpg"
+    },
+    {
+        "id": "10",
+        "title": "The Hobbit: The Battle of Five Armies",
+        "year": "2014",
+        "rating": "PG-13",
+        "genres": ["action", "fantasy"],
+        "length": "140",
+        "director": "Christopher Nolan",
+        "summary": "A young Bruce Wayne (Christian Bale) travels to the Far East, where he's trained in the martial arts by Henri Ducard (Liam Neeson), a member of the mysterious League of Shadows. When Ducard reveals the League's true purpose -- the complete destruction of Gotham City -- Wayne returns to Gotham intent on cleaning up the city without resorting to murder. With the help of Alfred (Michael Caine), his loyal butler, and Lucius Fox (Morgan Freeman), a tech expert at Wayne Enterprises, Batman is born.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485292906/batman-begins_w0lisw.jpg"
+    },
+]

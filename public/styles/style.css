@@ -18,30 +18,45 @@ header {
   padding: 15px;
   border-top-right-radius: 2px;
   border-top-left-radius: 2px;
+  display: flex;
+  justify-content: space-between;
 }
+
 .search {
   width: 65%;
 }
-.search input[type="text"]   {
-  width: 75%;
-  font-size: .75rem;
-  float: left;
-  padding: 2px;
+.search input {
+  border: none;
+  border-radius: 3px 0 0 3px;
+  -webkitz-box-shadow: 1px 1px 1px rgba(0,0,0,0.4) inset;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.4) inset;
+  font: 14px Verdana, Arial, sans-serif;
+  height: 19px;
+  padding: 5px 8px;
+  vertical-align: middle;
+  width: 419px;
 }
+
 select {
   width: 20%;
-  padding: 2px;
   height: 100%;
 }
 .logo, .search, select {
-  float: left;
 }
 .links {
-  float: right;
   display: flex;
+  align-items: stretch;
 }
 .links div {
   padding: 0 1rem;
-  font-size: .75rem;
+  font-size: 1rem;
   color: #efefef;
+  font-family: Verdana, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.links div:hover {
+  
 }

@@ -19,10 +19,10 @@
 
         </div>
         <div class="links">
-          <div ng-click="getMovies()">
+          <div ng-click="getMovies()" ng-class="{active: chosen == 'movies'}">
             <h3>Movies</h3>
           </div>
-          <div>
+          <div ng-click="getCelebs()" ng-class="{active: chosen == 'celebs'}">
             <h3>Celebrities</h3>
           </div>
         </div>

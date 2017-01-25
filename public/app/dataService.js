@@ -6,7 +6,7 @@ angular.module('dmdb')
         method: 'GET',
         url: '/movies'
       }).then(function (response) {
-        return response.data;
+        return response;
       })
     }
     this.getCelebs = function () {
@@ -15,7 +15,7 @@ angular.module('dmdb')
         method: 'GET',
         url: '/celebs'
       }).then(function (response) {
-        return response.data;
+        return response;
       })
     }
   })
