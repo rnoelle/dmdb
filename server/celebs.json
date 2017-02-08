@@ -91,7 +91,7 @@
   "name": "Ian McKellen",
   "year_born": "1939",
   "bio": "Sir Ian Murray McKellen, CH, CBE is an English actor. He is the recipient of six Laurence Olivier Awards, a Tony Award, a Golden Globe Award, a Screen Actors Guild Award, a BIF Award, two Saturn Awards, among others.",
-  "movie_ids": ["5", "6", Hobbit III, Lord of the Rings],
+  "movie_ids": ["5", "6", "10", "11"],
   "image_url": ""
 },
 {
@@ -174,4 +174,196 @@
   "movie_ids": ["9"],
   "image_url": ""
 },
+{
+  "id": "23",
+  "name": "Martin Freeman",
+  "year_born": "1971",
+  "bio": "Martin John Christopher Freeman is an English actor, who became known for portraying Tim Canterbury in the original UK version of sitcom mockumentary The Office and Dr. John Watson in the British crime drama, Sherlock.",
+  "movie_ids": ["10", Captain America: Civil War],
+  "image_url": ""
+},
+{
+  "id": "24",
+  "name": "Richard Armitage",
+  "year_born": "1971",
+  "bio": "Richard Crispin Armitage is an English film, television, theatre and voice actor. He received notice in the UK with his first leading role as John Thornton in the British television programme North & South.",
+  "movie_ids": ["10", Captain America: First Avenger ],
+  "image_url": ""
+},
+{
+  "id": "25",
+  "name": "Benedict Cumberbatch",
+  "year_born": "1976",
+  "bio": "Benedict Timothy Carlton Cumberbatch CBE is an English actor who has performed in film, television, theatre and radio. He is the son of actors Timothy Carlton and Wanda Ventham.",
+  "movie_ids": ["10", Star Trek: Into Darkness ],
+  "image_url": ""
+},
+{
+  "id": "26",
+  "name": "Orlando Bloom",
+  "year_born": "1977",
+  "bio": "Orlando Jonathan Blanchard Bloom is an English actor. After having his breakthrough as Legolas in The Lord of the Rings trilogy, he rose to fame by further appearing in epic fantasy, historical epic, and fantasy adventure films.",
+  "movie_ids": ["10", "11", Pirates of the Caribbean],
+  "image_url": ""
+},
+{
+  "id": "27",
+  "name": "Cate Blanchet",
+  "year_born": "1969",
+  "bio": "Catherine Elise \"Cate\" Blanchett is an Australian actress and theatre director. She has received international acclaim and many accolades, including six AACTA Awards and two Academy Awards.",
+  "movie_ids": ["10", "11", Indiana Jones and the Kingdom of Crystal SKull, Ponyo],
+  "image_url": ""
+},
+{
+  "id": "28",
+  "name": "Elijah Wood",
+  "year_born": "1979",
+  "bio": "Kate Noelle \"Katie\" Holmes is an American actress, model, and filmmaker who first achieved fame for her role as Joey Potter on The WB television teen drama Dawson's Creek from 1998 to 2003.",
+  "movie_ids": ["10", Deep Impact, "11", Back to the Future II],
+  "image_url": ""
+},
+{
+  "id": "29",
+  "name": "Christopher Lee",
+  "year_born": "1922",
+  "bio": "Sir Christopher Frank Carandini Lee CBE CStJ was an English actor, singer, and author. With a career spanning nearly 70 years, Lee initially portrayed villains and became best known for his role as Count Dracula in a sequence of Hammer Horror films.",
+  "movie_ids": ["10", Charlie and the Chocolate, Star Wars III, "11", Alice in Wonderland, Last Unicorn],
+  "image_url": ""
+},
+{
+  "id": "30",
+  "name": "Stephen Fry",
+  "year_born": "1957",
+  "bio": "Kate Noelle \"Katie\" Holmes is an American actress, model, and filmmaker who first achieved fame for her role as Joey Potter on The WB television teen drama Dawson's Creek from 1998 to 2003.",
+  "movie_ids": ["10", Sherlock Holmes: Game of Shadows, Alice in Wonderland, Hitchhiker's Guide ],
+  "image_url": ""
+},
+{
+  "id": "31",
+  "name": "Evangeline Lilly",
+  "year_born": "1979",
+  "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
+  "movie_ids": ["10", Ant-Man],
+  "image_url": ""
+},
+{
+  "id": "32",
+  "name": "Viggo Mortensen",
+  "year_born": "1958",
+  "bio": "Viggo Peter Mortensen Jr. is a Danish-American actor. He made his film debut in Peter Weir's 1985 thriller Witness, and subsequently appeared in many notable films of subsequent years, including The Lord of the Rings.",
+  "movie_ids": ["11", Witness, 28 days, ],
+  "image_url": ""
+},
+{
+  "id": "33",
+  "name": "Sean Astin",
+  "year_born": "1971",
+  "bio": "Sean Patrick Astin is an American actor, director, voice artist, and producer. He is known for his film roles as Samwise Gamgee in The Lord of the Rings trilogy, Mikey Walsh in The Goonies, and the title character of Rudy.",
+  "movie_ids": ["11", Rudy, 50 First Dates],
+  "image_url": ""
+},
+{
+  "id": "34",
+  "name": "Sean Bean",
+  "year_born": "1959",
+  "bio": "Shaun Mark Bean, known professionally as Sean Bean, is an English actor. After graduating from the Royal Academy of Dramatic Art, he made his professional debut in a theatre production of Romeo and Juliet in 1983.",
+  "movie_ids": ["11", Patriot Games, Martian, GoldenEye],
+  "image_url": ""
+},
+{
+  "id": "35",
+  "name": "Liv Tyler",
+  "year_born": "1979",
+  "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
+  "movie_ids": ["11", Armageddon, That Thing You Do, Incredible Hulk ],
+  "image_url": ""
+},
+{
+  "id": "36",
+  "name": "Ian Holm",
+  "year_born": "1979",
+  "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
+  "movie_ids": [Alien, Chariots of Fire, Day After Tomorrow, "10", "11"],
+  "image_url": ""
+},
+{
+  "id": "37",
+  "name": "Robert Downey Jr.",
+  "year_born": "1965",
+  "bio": "Robert John Downey Jr. is an American actor. His career has included critical and popular success in his youth, followed by a period of substance abuse and legal troubles, and a resurgence of commercial success in middle age.",
+  "movie_ids": ["12", Captain America: Civil War, Sherlock Holmes: Game of Shadows],
+  "image_url": ""
+},
+{
+  "id": "38",
+  "name": "Chris Evans",
+  "year_born": "1981",
+  "bio": "Christopher Robert \"Chris\" Evans is an American actor. Evans is known for his superhero roles as the Marvel Comics characters Captain America in the Marvel Cinematic Universe and the Human Torch in Fantastic Four and its 2007 sequel.",
+  "movie_ids": ["12", Captain America: Civil War, Captain America: First Avenger, Ant-Man],
+  "image_url": ""
+},
+{
+  "id": "39",
+  "name": "Scarlett Johansson",
+  "year_born": "1984",
+  "bio": "Scarlett Johansson is an American actress, model and singer. She made her film debut in North. Johansson subsequently starred in Manny & Lo, and garnered further acclaim and prominence with roles in The Horse Whisperer and Ghost World.",
+  "movie_ids": ["12", Captain America: Civil War],
+  "image_url": ""
+},
+{
+  "id": "40",
+  "name": "Chris Hemsworth",
+  "year_born": "1979",
+  "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
+  "movie_ids": [ ],
+  "image_url": ""
+},
+{
+  "id": "37",
+  "name": "Mark Ruffalo",
+  "year_born": "1979",
+  "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
+  "movie_ids": [],
+  "image_url": ""
+},
+{
+  "id": "37",
+  "name": "Jeremy Renner",
+  "year_born": "1979",
+  "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
+  "movie_ids": [],
+  "image_url": ""
+},
+{
+  "id": "37",
+  "name": "Samuel L. Jackson",
+  "year_born": "1979",
+  "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
+  "movie_ids": [],
+  "image_url": ""
+},
+{
+  "id": "37",
+  "name": "Gwyneth Paltrow",
+  "year_born": "1979",
+  "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
+  "movie_ids": [],
+  "image_url": ""
+},
+{
+  "id": "37",
+  "name": "Tom Hiddleston",
+  "year_born": "1979",
+  "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
+  "movie_ids": [],
+  "image_url": ""
+},
 ]
+
+
+1,
+0
+0
+1
+0
+0

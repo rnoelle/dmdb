@@ -28,10 +28,10 @@
         </div>
       </header>
       <article>
-        <div ng-if="movies" ng-repeat="movie in movies">
+        <div ng-if="chosen == 'movies'" ng-repeat="movie in movies">
 
         </div>
-        <div ng-if="celebs" ng-repeat="celeb in celebs">
+        <div ng-if="chosen == 'celebs'" ng-repeat="celeb in celebs">
 
         </div>
       </article>

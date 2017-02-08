@@ -103,9 +103,31 @@
         "year": "2014",
         "rating": "PG-13",
         "genres": ["action", "fantasy"],
-        "length": "140",
-        "director": "Christopher Nolan",
-        "summary": "A young Bruce Wayne (Christian Bale) travels to the Far East, where he's trained in the martial arts by Henri Ducard (Liam Neeson), a member of the mysterious League of Shadows. When Ducard reveals the League's true purpose -- the complete destruction of Gotham City -- Wayne returns to Gotham intent on cleaning up the city without resorting to murder. With the help of Alfred (Michael Caine), his loyal butler, and Lucius Fox (Morgan Freeman), a tech expert at Wayne Enterprises, Batman is born.",
-        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485292906/batman-begins_w0lisw.jpg"
+        "length": "164",
+        "director": "Peter Jackson",
+        "summary": "This final battle brings to an epic conclusion the adventures of Bilbo Baggins, Thorin Oakenshield, and the Company of Dwarves. Having reclaimed their homeland from the Dragon Smaug, the Company has unwittingly unleashed a deadly force into the world. Enraged, Smaug rains his fiery wrath down upon the defenseless men, women and children of Lake-town. Obsessed above all else with his reclaimed treasure, Thorin sacrifices friendship and honor to hoard it as Bilbo's frantic attempts to make him see reason drive the Hobbit towards a desperate and dangerous choice. But there are even greater dangers ahead. Unseen by any but the Wizard Gandalf, the great enemy Sauron has sent forth legions of Orcs in a stealth attack upon the Lonely Mountain. As darkness converges on their escalating conflict, the races of Dwarves, Elves and Men must decide: unite or be destroyed. Bilbo finds himself fighting for his life and the lives of his friends in the epic Battle of the Five Armies, as the future of Middle-earth hangs in the balance.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485292910/hobbit_wyvqia.jpg"
+    },
+    {
+        "id": "11",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "year": "2001",
+        "rating": "PG-13",
+        "genres": ["drama", "fantasy"],
+        "length": "228",
+        "director": "Peter Jackson",
+        "summary": "The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins (Elijah Wood), who inherits the Ring and steps into legend.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485559371/lotr-fellowship_wybasq.jpg"
+    },
+    {
+        "id": "12",
+        "title": "The Avengers",
+        "year": "2012",
+        "rating": "PG-13",
+        "genres": ["science", "fantasy"],
+        "length": "143",
+        "director": "Joss Whedon",
+        "summary": "Marvel's The Avengers, or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures.",
+        "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1485292907/avengers_npo9zk.jpg"
     },
 ]
