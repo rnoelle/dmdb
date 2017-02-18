@@ -4,7 +4,7 @@
   "year_born": "1977",
   "bio": "Michael Fassbender is an Irish-German actor. Fassbender's feature film debut was in the fantasy war epic 300 as a Spartan warrior; his earlier roles included various stage productions.",
   "movie_ids": ["1","2", "3", "5"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487452093/michael-fassbender_jk08n9.jpg"
 },
 {
   "id": "2",
@@ -12,7 +12,7 @@
   "year_born": "1975",
   "bio": "Marion Cotillard is a French actress, singer-songwriter, musician, environmentalist and spokesperson for Greenpeace.",
   "movie_ids": ["1","4", "7"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451920/Marion-Cotillard_shhz7i.jpg"
 },
 {
   "id": "3",
@@ -20,7 +20,7 @@
   "year_born": "1979",
   "bio": "James McAvoy is a Scottish actor. He made his acting début as a teen in 1995's The Near Room and continued to make mostly television appearances until 2003, when his feature film career began and he continued to work in both areas from then on.",
   "movie_ids": ["2","3", "5"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451919/James-McAvoy_kbieyc.jpg"
 },
 {
   "id": "4",
@@ -28,7 +28,7 @@
   "year_born": "1990",
   "bio": "Jennifer Shrader Lawrence is an American actress. As of 2016, Lawrence is the highest-paid actress in the world, and her films have grossed over $5 billion worldwide.",
   "movie_ids": ["2", "3", "5"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451920/jennifer-lawrence_gsqdiv.jpg"
 },
 {
   "id": "5",
@@ -36,7 +36,7 @@
   "year_born": "1958",
   "bio": "Kevin Norwood Bacon is an American actor and musician. His notable films include musical-drama film Footloose, the controversial historical conspiracy legal thriller JFK, and the legal drama A Few Good Men.",
   "movie_ids": ["2"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451921/kevin-bacon_msynsu.jpg"
 },
 {
   "id": "6",
@@ -44,23 +44,23 @@
   "year_born": "1968",
   "bio": "Hugh Michael Jackman is an Australian actor, singer and producer. Jackman has won international recognition for his roles in variety of film genres.",
   "movie_ids": ["3", "5", "6", "14"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451919/hugh-jackman_bnvzxj.jpg"
 },
 {
   "id": "7",
   "name": "Leonardo DiCaprio",
   "year_born": "1974",
-  "bio": "Leonardo Wilhelm DiCaprio (/dᵻˈkæpri.oʊ/; born November 11, 1974) is an American actor and film producer. DiCaprio began his career by appearing in television commercials in the early 1990s, after which he had recurring roles in various television series such as the soap opera Santa Barbara and the sitcom Growing Pains. In 1993, he began his film career by starring as Josh in Critters 3 (1991). He starred in the film adaptation of the memoir This Boy's Life (1993), and was praised for his supporting role in What's Eating Gilbert Grape (1993). He gained public recognition with leading roles in The Basketball Diaries (1995) and the romantic drama Romeo + Juliet (1996), before achieving international fame with James Cameron's epic romance Titanic (1997), which became the highest-grossing film of all time until Cameron's science fiction film Avatar (2009) overtook it.",
+  "bio": "Leonardo Wilhelm DiCaprio is an American actor and film producer. DiCaprio began his career by appearing in television commercials in the early 1990s, after which he had recurring roles in various television series such as the soap opera Santa Barbara and the sitcom Growing Pains. In 1993, he began his film career by starring as Josh in Critters 3 (1991). He starred in the film adaptation of the memoir This Boy's Life (1993), and was praised for his supporting role in What's Eating Gilbert Grape (1993). He gained public recognition with leading roles in The Basketball Diaries (1995) and the romantic drama Romeo + Juliet (1996), before achieving international fame with James Cameron's epic romance Titanic (1997), which became the highest-grossing film of all time until Cameron's science fiction film Avatar (2009) overtook it.",
   "movie_ids": ["4"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/leonardo-dicaprio_tz73r0.jpg"
 },
 {
   "id": "8",
   "name": "Joseph Gorden-Levitt",
   "year_born": "1981",
-  "bio": "Hugh Michael Jackman is an Australian actor, singer and producer. Jackman has won international recognition for his roles in variety of film genres.",
+  "bio": "Joseph Leonard Gordon-Levitt is an American actor and filmmaker. As a child actor, he appeared in the films A River Runs Through It, Angels in the Outfield and 10 Things I Hate About You, and as Tommy Solomon in the TV series 3rd Rock from the Sun.",
   "movie_ids": ["4", "7"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451920/Joseph-Gordon-Levitt_q4cs9d.jpg"
 },
 {
   "id": "9",
@@ -68,7 +68,7 @@
   "year_born": "1987",
   "bio": "Ellen Grace Philpotts-Page, known professionally as Ellen Page, is a Canadian actress. Her career began with roles in Canadian television shows including Pit Pony, Trailer Park Boys, and ReGenesis.",
   "movie_ids": ["4", "5"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451918/ellen-page_zgejvi.jpg"
 },
 {
   "id": "10",
@@ -76,7 +76,7 @@
   "year_born": "1966",
   "bio": "Halle Maria Berry is an American actress, film producer, and former fashion model. She won an Academy Award for Best Actress in 2002 for her performance in the romantic drama Monster's Ball.",
   "movie_ids": ["5", "6"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451918/halle-berry_uqvkle.jpg"
 },
 {
   "id": "11",
@@ -84,7 +84,7 @@
   "year_born": "1940",
   "bio": "Sir Patrick Stewart OBE is an English actor whose career has included roles on stage, television, and film.",
   "movie_ids": ["5", "6"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451921/patrick-stewart_eyanpz.jpg"
 },
 {
   "id": "12",
@@ -92,7 +92,7 @@
   "year_born": "1939",
   "bio": "Sir Ian Murray McKellen, CH, CBE is an English actor. He is the recipient of six Laurence Olivier Awards, a Tony Award, a Golden Globe Award, a Screen Actors Guild Award, a BIF Award, two Saturn Awards, among others.",
   "movie_ids": ["5", "6", "10", "11"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451919/Ian-McKellen_xtng3b.jpg"
 },
 {
   "id": "13",
@@ -100,7 +100,7 @@
   "year_born": "1922",
   "bio": "Stan Lee is an American comic-book writer, editor, publisher, media producer, television host, actor, and former president and chairman of Marvel Comics.",
   "movie_ids": ["6", "12", "3", "2"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/Stan-Lee_bwznsf.jpg"
 },
 {
   "id": "14",
@@ -108,7 +108,7 @@
   "year_born": "1977",
   "bio": "Edward Thomas \"Tom\" Hardy is an English actor and producer. He made his debut in Ridley Scott's 2001 action film Black Hawk Down.",
   "movie_ids": ["4", "7"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/tom-hardy_sp2bdr.jpg"
 },
 {
   "id": "15",
@@ -116,7 +116,7 @@
   "year_born": "1974",
   "bio": "Christian Charles Philip Bale is a British actor. He has starred both in blockbuster films and smaller projects from independent producers and art houses.",
   "movie_ids": ["7", "9", "8"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451917/christian-bale_o2jpgw.jpg"
 },
 {
   "id": "16",
@@ -124,7 +124,7 @@
   "year_born": "1982",
   "bio": "Anne Jacqueline Hathaway is an American actress and singer. Born in Brooklyn, New York and brought up in Millburn, New Jersey, Hathaway was inspired to act by her mother.",
   "movie_ids": ["7", "14", "15", "31"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451917/anne-hathaway_flmcib.jpg"
 },
 {
   "id": "17",
@@ -132,7 +132,7 @@
   "year_born": "1933",
   "bio": "Sir Michael Caine, CBE is an English actor and author. Renowned for his distinctive working class cockney accent, Caine has appeared in over 115 films and is regarded as a British film icon.",
   "movie_ids": ["7", "8", "9", "15", "4", "16", "17", "51"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451921/Michael-Caine_rbp282.jpg"
 },
 {
   "id": "18",
@@ -140,7 +140,7 @@
   "year_born": "1976",
   "bio": "Cillian Murphy is an Irish actor of stage and screen. Since making his debut in his home country in the late 1990s, Murphy has also become a presence in British and American cinemas.",
   "movie_ids": ["4", "9", "8", "7"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451917/cillian-murphy_ttu3ya.jpg"
 },
 {
   "id": "19",
@@ -148,7 +148,7 @@
   "year_born": "1937",
   "bio": "Morgan Freeman is an American actor, producer and narrator. Freeman won an Academy Award in 2005 for Best Supporting Actor with Million Dollar Baby.",
   "movie_ids": ["8", "9", "7", "17", "18", "19", "20", "51"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451922/morgan-freeman_xyol2v.jpg"
 },
 {
   "id": "20",
@@ -156,7 +156,7 @@
   "year_born": "1952",
   "bio": "Liam John Neeson, OBE, is an actor from Northern Ireland. In 1976, he joined the Lyric Players' Theatre in Belfast for two years. He then acted in the Arthurian film, Excalibur.",
   "movie_ids": ["21", "9", "7", "19", "28"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451920/liam-neeson_jxz1yy.jpg"
 },
 {
   "id": "21",
@@ -164,7 +164,7 @@
   "year_born": "1979",
   "bio": "Heathcliff Andrew \"Heath\" Ledger was an Australian actor and director. After performing roles in several Australian television and film productions during the 1990s, Ledger left for the United States in 1998 to develop his film career.",
   "movie_ids": ["8", "22"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451919/heath-ledger_iyeqqv.jpg"
 },
 {
   "id": "22",
@@ -172,7 +172,7 @@
   "year_born": "1979",
   "bio": "Kate Noelle \"Katie\" Holmes is an American actress, model, and filmmaker who first achieved fame for her role as Joey Potter on The WB television teen drama Dawson's Creek from 1998 to 2003.",
   "movie_ids": ["9"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451921/katie-holmes_r4x0ll.jpg"
 },
 {
   "id": "23",
@@ -180,7 +180,7 @@
   "year_born": "1971",
   "bio": "Martin John Christopher Freeman is an English actor, who became known for portraying Tim Canterbury in the original UK version of sitcom mockumentary The Office and Dr. John Watson in the British crime drama, Sherlock.",
   "movie_ids": ["10", "13", "33"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451921/martin-freeman_iglczs.jpg"
 },
 {
   "id": "24",
@@ -188,7 +188,7 @@
   "year_born": "1971",
   "bio": "Richard Crispin Armitage is an English film, television, theatre and voice actor. He received notice in the UK with his first leading role as John Thornton in the British television programme North & South.",
   "movie_ids": ["10", "23"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451921/richard-armitage_wiuiwc.jpg"
 },
 {
   "id": "25",
@@ -196,7 +196,7 @@
   "year_born": "1976",
   "bio": "Benedict Timothy Carlton Cumberbatch CBE is an English actor who has performed in film, television, theatre and radio. He is the son of actors Timothy Carlton and Wanda Ventham.",
   "movie_ids": ["10", "24"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451916/benedict-cumberbatch_s37zwi.jpg"
 },
 {
   "id": "26",
@@ -204,7 +204,7 @@
   "year_born": "1977",
   "bio": "Orlando Jonathan Blanchard Bloom is an English actor. After having his breakthrough as Legolas in The Lord of the Rings trilogy, he rose to fame by further appearing in epic fantasy, historical epic, and fantasy adventure films.",
   "movie_ids": ["10", "11", "25"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451921/orlando-bloom_wxzaqg.jpg"
 },
 {
   "id": "27",
@@ -212,15 +212,15 @@
   "year_born": "1969",
   "bio": "Catherine Elise \"Cate\" Blanchett is an Australian actress and theatre director. She has received international acclaim and many accolades, including six AACTA Awards and two Academy Awards.",
   "movie_ids": ["10", "11", "26", "28"],
-  "image_url": ""
+  "image_url": "http://res.cloudinary.com/dyw4edyuf/image/upload/v1487451917/cate-blanchet_nu25xs.jpg"
 },
 {
   "id": "28",
   "name": "Elijah Wood",
   "year_born": "1979",
-  "bio": "Kate Noelle \"Katie\" Holmes is an American actress, model, and filmmaker who first achieved fame for her role as Joey Potter on The WB television teen drama Dawson's Creek from 1998 to 2003.",
+  "bio": "Elijah Jordan Wood is an American actor, voice actor, producer, and DJ. He made his film debut with a minor part in Back to the Future Part II.",
   "movie_ids": ["10", "18", "11"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451918/elijah-wood_wuk4me.jpg"
 },
 {
   "id": "29",
@@ -228,15 +228,15 @@
   "year_born": "1922",
   "bio": "Sir Christopher Frank Carandini Lee CBE CStJ was an English actor, singer, and author. With a career spanning nearly 70 years, Lee initially portrayed villains and became best known for his role as Count Dracula in a sequence of Hammer Horror films.",
   "movie_ids": ["10", "29", "30", "11", "31"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451917/Christopher-Lee_z9etv3.jpg"
 },
 {
   "id": "30",
   "name": "Stephen Fry",
   "year_born": "1957",
-  "bio": "Kate Noelle \"Katie\" Holmes is an American actress, model, and filmmaker who first achieved fame for her role as Joey Potter on The WB television teen drama Dawson's Creek from 1998 to 2003.",
+  "bio": "Stephen John Fry is an English comedian, actor, writer, presenter, and activist.",
   "movie_ids": ["10", "32", "31", "33"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/stephen-fry_mys03a.jpg"
 },
 {
   "id": "31",
@@ -244,7 +244,7 @@
   "year_born": "1979",
   "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
   "movie_ids": ["10", "34"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451919/Evangeline-Lilly_gz6pgv.jpg"
 },
 {
   "id": "32",
@@ -252,7 +252,7 @@
   "year_born": "1958",
   "bio": "Viggo Peter Mortensen Jr. is a Danish-American actor. He made his film debut in Peter Weir's 1985 thriller Witness, and subsequently appeared in many notable films of subsequent years, including The Lord of the Rings.",
   "movie_ids": ["11", "35", "36"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451924/viggo-mortensen_ccwdcf.jpg"
 },
 {
   "id": "33",
@@ -260,7 +260,7 @@
   "year_born": "1971",
   "bio": "Sean Patrick Astin is an American actor, director, voice artist, and producer. He is known for his film roles as Samwise Gamgee in The Lord of the Rings trilogy, Mikey Walsh in The Goonies, and the title character of Rudy.",
   "movie_ids": ["11"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/sean-astin_kmlsdo.jpg"
 },
 {
   "id": "34",
@@ -268,7 +268,7 @@
   "year_born": "1959",
   "bio": "Shaun Mark Bean, known professionally as Sean Bean, is an English actor. After graduating from the Royal Academy of Dramatic Art, he made his professional debut in a theatre production of Romeo and Juliet in 1983.",
   "movie_ids": ["11", "37", "38"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487453679/sean-bean_rjdjyf.jpg"
 },
 {
   "id": "35",
@@ -276,15 +276,15 @@
   "year_born": "1979",
   "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
   "movie_ids": ["11", "39"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451920/liv-tyler_cztgs5.jpg"
 },
 {
   "id": "36",
   "name": "Ian Holm",
-  "year_born": "1979",
-  "bio": "Nicole Evangeline Lilly is a Canadian actress and author. She won a Screen Actors Guild Award and received a Golden Globe nomination for her role as Kate Austen in the ABC series Lost.",
+  "year_born": "1931",
+  "bio": "Sir Ian Holm CBE is an English actor known for his stage work and many film roles. He received the 1967 Tony Award for Best Featured Actor for his performance as Lenny in The Homecoming and the 1998.",
   "movie_ids": ["10", "11"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451919/ian-holm_w4hb5j.jpg"
 },
 {
   "id": "37",
@@ -292,7 +292,7 @@
   "year_born": "1965",
   "bio": "Robert John Downey Jr. is an American actor. His career has included critical and popular success in his youth, followed by a period of substance abuse and legal troubles, and a resurgence of commercial success in middle age.",
   "movie_ids": ["12", "13", "32"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451921/robert-downey-jr_vdahhj.jpg"
 },
 {
   "id": "38",
@@ -300,7 +300,7 @@
   "year_born": "1981",
   "bio": "Christopher Robert \"Chris\" Evans is an American actor. Evans is known for his superhero roles as the Marvel Comics characters Captain America in the Marvel Cinematic Universe and the Human Torch in Fantastic Four and its 2007 sequel.",
   "movie_ids": ["12", "13", "23", "34"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451916/chris-evans_kilexq.jpg"
 },
 {
   "id": "39",
@@ -308,7 +308,7 @@
   "year_born": "1984",
   "bio": "Scarlett Johansson is an American actress, model and singer. She made her film debut in North. Johansson subsequently starred in Manny & Lo, and garnered further acclaim and prominence with roles in The Horse Whisperer and Ghost World.",
   "movie_ids": ["12", "13"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451922/Scarlett-Johansson_gced49.jpg"
 },
 {
   "id": "40",
@@ -316,7 +316,7 @@
   "year_born": "1983",
   "bio": "Chris Hemsworth is an Australian actor. He is known for playing Kim Hyde in the Australian TV series Home and Away and Thor in the Marvel Cinematic Universe since 2011.",
   "movie_ids": ["12", "40"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451917/chris-hemsworth_iuabjj.jpg"
 },
 {
   "id": "41",
@@ -324,7 +324,7 @@
   "year_born": "1967",
   "bio": "Mark Alan Ruffalo is an American actor, humanitarian, social activist and film producer. He made his screen debut in an episode of CBS Summer Playhouse, followed by minor film roles.",
   "movie_ids": ["12", "17", "51"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451921/mark-ruffalo_aa1vqb.jpg"
 },
 {
   "id": "42",
@@ -332,7 +332,7 @@
   "year_born": "1971",
   "bio": "Jeremy Lee Renner is an American actor and singer. Throughout the 2000s, Renner appeared largely in independent films such as Dahmer and Neo Ned. He also appeared in supporting roles in bigger films such as S.W.A.T. and 28 Weeks Later.",
   "movie_ids": ["12", "13", "41"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451921/jeremy-renner_qg354b.jpg"
 },
 {
   "id": "43",
@@ -340,7 +340,7 @@
   "year_born": "1948",
   "bio": "Samuel Leroy Jackson is an American actor and film producer. He achieved prominence and critical acclaim in the early 1990s with films such as Jungle Fever, Patriot Games, Amos & Andrew, and True Romance.",
   "movie_ids": ["12", "21", "43", "23", "30"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451922/Samuel-L-Jackson_armkwx.jpg"
 },
 {
   "id": "44",
@@ -348,7 +348,7 @@
   "year_born": "1972",
   "bio": "Gwyneth Kate Paltrow is an American actress, singer, and food writer. She gained early notice for her work in films such as the thriller Seven and the period drama Emma.",
   "movie_ids": ["12"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451919/gwyneth-paltrow_prlcwv.jpg"
 },
 {
   "id": "45",
@@ -356,23 +356,23 @@
   "year_born": "1981",
   "bio": "Thomas William \"Tom\" Hiddleston is an English actor, producer and musical performer. At the beginning of his career, he appeared in West End theatre productions of Cymbeline and Ivanov.",
   "movie_ids": ["12"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/tom-hiddleston_zsiulm.jpg"
 },
 {
   "id": "46",
   "name": "Helena Bonham Carter",
-  "year_born": "1981",
-  "bio": "Thomas William \"Tom\" Hiddleston is an English actor, producer and musical performer. At the beginning of his career, he appeared in West End theatre productions of Cymbeline and Ivanov.",
-  "movie_ids": ["14", Harry Potter, "31", "50"],
-  "image_url": ""
+  "year_born": "1966",
+  "bio": "Helena Bonham Carter, CBE is an English actress. She was nominated for the Academy Award for Best Actress for her role as Kate Croy in The Wings of the Dove.",
+  "movie_ids": ["14", "49", "31", "50", "29", "47", "48"],
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451919/helena-bonham-carter_dweekm.jpg"
 },
 {
   "id": "47",
   "name": "Russell Crowe",
   "year_born": "1981",
-  "bio": "Thomas William \"Tom\" Hiddleston is an English actor, producer and musical performer. At the beginning of his career, he appeared in West End theatre productions of Cymbeline and Ivanov.",
+  "bio": "Russell Ira Crowe is an actor, film producer and musician from New Zealand. He came to international attention for his role as the Roman General Maximus Decimus Meridius in the 2000 historical epic film, Gladiator.",
   "movie_ids": ["14"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451922/Russell_Crowe_t3hvbf.jpg"
 },
 {
   "id": "48",
@@ -380,7 +380,7 @@
   "year_born": "1969",
   "bio": "Matthew David McConaughey is an American actor. He first gained notice for his breakout role in the coming-of-age comedy Dazed and Confused.",
   "movie_ids": ["15"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487453829/Matthew-McConaughey_wwd44p.jpg"
 },
 {
   "id": "49",
@@ -388,63 +388,55 @@
   "year_born": "1970",
   "bio": "Matthew Paige \"Matt\" Damon is an American actor, film producer, and screenwriter. He is ranked among Forbes magazine's most bankable stars and is one of the highest-grossing actors of all time.",
   "movie_ids": ["15", "38", "41", "28"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487453927/matt-damon_cwuipl.jpg"
 },
 {
   "id": "50",
   "name": "Sandra Bullock",
-  "year_born": "1970",
-  "bio": "Matthew Paige "Matt" Damon is an American actor, film producer, and screenwriter. He is ranked among Forbes magazine's most bankable stars and is one of the highest-grossing actors of all time.",
+  "year_born": "1964",
+  "bio": "Sandra Annette Bullock is a German-American actress and producer. She made her acting debut with a minor role in the 1987 thriller Hangmen, and made her television debut in the film Bionic Showdown.",
   "movie_ids": ["16", "36"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451922/sandra-bullok_pcqgrl.jpg"
 },
 {
   "id": "51",
   "name": "William Shatner",
-  "year_born": "1970",
-  "bio": "Matthew Paige "Matt" Damon is an American actor, film producer, and screenwriter. He is ranked among Forbes magazine's most bankable stars and is one of the highest-grossing actors of all time.",
+  "year_born": "1931",
+  "bio": "William Shatner is a Canadian actor, author, producer, and director. In his seven decades of television, Shatner became a cultural icon for his portrayal of James T. Kirk, Captain of the USS Enterprise, in the Star Trek franchise.",
   "movie_ids": ["16"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/william-shatner_pye8mj.jpg"
 },
 {
   "id": "52",
   "name": "Chris Pratt",
-  "year_born": "1970",
-  "bio": "Matthew Paige "Matt" Damon is an American actor, film producer, and screenwriter. He is ranked among Forbes magazine's most bankable stars and is one of the highest-grossing actors of all time.",
+  "year_born": "1979",
+  "bio": "Christopher Michael \"Chris\" Pratt is an American actor. Pratt came to prominence from his television roles, including Bright Abbott in The WB drama series Everwood and Andy Dwyer in the NBC sitcom Parks and Recreation.",
   "movie_ids": ["19"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487453972/chris-pratt_cuqmic.jpg"
 },
 {
   "id": "53",
   "name": "Will Ferrell",
-  "year_born": "1970",
-  "bio": "Matthew Paige "Matt" Damon is an American actor, film producer, and screenwriter. He is ranked among Forbes magazine's most bankable stars and is one of the highest-grossing actors of all time.",
-  "movie_ids": ["19"],
-  "image_url": ""
-},
-{
-  "id": "54",
-  "name": "Channing Tatum",
-  "year_born": "1970",
-  "bio": "Matthew Paige "Matt" Damon is an American actor, film producer, and screenwriter. He is ranked among Forbes magazine's most bankable stars and is one of the highest-grossing actors of all time.",
-  "movie_ids": ["19"],
-  "image_url": ""
+  "year_born": "1967",
+  "bio": "John William \"Will\" Ferrell is an American actor, comedian, producer, and writer. He first established himself in the mid-1990s as a cast member on the NBC sketch comedy show Saturday Night Live.",
+  "movie_ids": ["19", "52"],
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454102/will-ferrell_iiofvp.jpg"
 },
 {
   "id": "55",
   "name": "Cobie Smulders",
-  "year_born": "1970",
-  "bio": "Matthew Paige "Matt" Damon is an American actor, film producer, and screenwriter. He is ranked among Forbes magazine's most bankable stars and is one of the highest-grossing actors of all time.",
-  "movie_ids": ["19"],
-  "image_url": ""
+  "year_born": "1982",
+  "bio": "Keira Christina Knightley is an English actress. She began acting as a child on television and made her film debut in 1995.",
+  "movie_ids": ["12", "19"],
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451918/Cobie-Smulders_tuwa0n.jpg"
 },
 {
   "id": "56",
   "name": "Keira Knightly",
-  "year_born": "1970",
-  "bio": "Matthew Paige "Matt" Damon is an American actor, film producer, and screenwriter. He is ranked among Forbes magazine's most bankable stars and is one of the highest-grossing actors of all time.",
+  "year_born": "1985",
+  "bio": "Keira Christina Knightley is an English actress. She began acting as a child on television and made her film debut in 1995.",
   "movie_ids": ["21", "25"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451920/keira-knightley_btqzdt.jpg"
 },
 {
   "id": "57",
@@ -452,7 +444,7 @@
   "year_born": "1981",
   "bio": "Natalie Portman is an actress, producer and director with dual American and Israeli citizenship. Her first role was in the 1994 action thriller Léon: The Professional, opposite Jean Reno.",
   "movie_ids": ["21", "30"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/natalie-portman_igbqbw.jpg"
 },
 {
   "id": "58",
@@ -460,7 +452,7 @@
   "year_born": "1971",
   "bio": "Ewan Gordon McGregor OBE is a Scottish actor. His first professional role was in 1993, when he won a leading role in the Channel 4 series Lipstick on Your Collar.",
   "movie_ids": ["21", "30"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451918/ewan-mcgregor_cfj0wg.jpg"
 },
 {
   "id": "58",
@@ -468,7 +460,7 @@
   "year_born": "1980",
   "bio": "Christopher Whitelaw \"Chris\" Pine is an American actor. He is known for his role as James T. Kirk in Star Trek, Star Trek Into Darkness, and Star Trek Beyond.",
   "movie_ids": ["24", "40"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454153/chris-pine_ywmhae.jpg"
 },
 {
   "id": "59",
@@ -476,7 +468,7 @@
   "year_born": "1977",
   "bio": "Zachary John Quinto is an American actor and film producer. He is best known for his roles as Sylar on the science fiction drama series Heroes, Spock in the reboot Star Trek.",
   "movie_ids": ["24", "40"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451924/zachary-quinto_voe4o9.jpg"
 },
 {
   "id": "60",
@@ -484,7 +476,7 @@
   "year_born": "1978",
   "bio": "Zoe Saldana-Perego, known professionally as Zoe Saldana, is an American actress and dancer. Following her performances with the FACES theater group, Saldana made her screen debut in an episode of Law & Order.",
   "movie_ids": ["24", "40"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451924/Zoe-Saldana_sx65ig.jpg"
 },
 {
   "id": "61",
@@ -492,7 +484,7 @@
   "year_born": "1963",
   "bio": "John Christopher \"Johnny\" Depp II is an American actor, producer, and musician. He has won the Golden Globe Award and Screen Actors Guild Award for Best Actor.",
   "movie_ids": ["25", "29", "31", "50"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451920/johnny-depp_vtjoae.jpg"
 },
 {
   "id": "62",
@@ -500,7 +492,7 @@
   "year_born": "1942",
   "bio": "Harrison Ford is an American actor and film producer. He gained worldwide fame for his starring roles as Han Solo in the Star Wars film series and as the title character of the Indiana Jones film series.",
   "movie_ids": ["26", "35", "27", "37"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451919/harrison-ford_ofy9d1.jpg"
 },
 {
   "id": "63",
@@ -508,7 +500,7 @@
   "year_born": "1986",
   "bio": "Shia Saide LaBeouf is an American actor, performance artist, and filmmaker. He became known among younger audiences as Louis Stevens in the Disney Channel series Even Stevens.",
   "movie_ids": ["26"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/Shia_Labeouf_bgwksp.jpg"
 },
 {
   "id": "64",
@@ -516,7 +508,7 @@
   "year_born": "1951",
   "bio": "Karen Jane Allen is an American actress. She is best known for her performances as Marion Ravenwood in Raiders of the Lost Ark and Indiana Jones and the Kingdom of the Crystal Skull, along with other film work.",
   "movie_ids": ["26", "27"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451920/karen-allen_sfix4z.jpg"
 },
 {
   "id": "65",
@@ -524,7 +516,7 @@
   "year_born": "1970",
   "bio": "Frank Oz is an English-born American puppeteer, filmmaker and actor. His career began as a puppeteer, where he performed the Muppet characters of Miss Piggy and Fozzie Bear in The Muppet Show, and Cookie Monster, Bert, and Grover in Sesame Street.",
   "movie_ids": ["21", "30"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451918/Frank_oz_xst6zu.jpg"
 },
 {
   "id": "66",
@@ -532,7 +524,7 @@
   "year_born": "1990",
   "bio": "Emma Charlotte Duerre Watson is a British actress, model, and activist. Born in Paris and brought up in Oxfordshire, Watson attended the Dragon School as a child and trained as an actress at the Oxford branch of Stagecoach Theatre Arts.",
   "movie_ids": ["42", "43", "44", "45", "46", "47", "48", "49"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454480/emma-watson_u9rzqw.jpg"
 },
 {
   "id": "68",
@@ -540,7 +532,7 @@
   "year_born": "1944",
   "bio": "Frances de la Tour is an English actress, known for her role as Miss Ruth Jones in the television sitcom Rising Damp from 1974 until 1978. She is a Tony Award winner and three-time Olivier Award winner.",
   "movie_ids": ["31", "45", "48"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454546/frances-de-la-tour_xssbvy.jpg"
 },
 {
   "id": "69",
@@ -548,7 +540,7 @@
   "year_born": "1946",
   "bio": "Alan Sidney Patrick Rickman was an English actor and director known for playing a variety of roles on stage and on screen.",
   "movie_ids": ["31", "33", "42", "43", "44", "45", "46", "47", "48", "49", "50"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454584/alan-rickman_gtwnow.jpg"
 },
 {
   "id": "69",
@@ -556,15 +548,15 @@
   "year_born": "1957",
   "bio": "Timothy Leonard Spall, OBE is an English character actor and occasional presenter. He became a household name in the UK after appearing in the 1983 ITV comedy-drama series Auf Wiedersehen, Pet.",
   "movie_ids": ["31", "50", "44", "47"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/Timothy-Spall_p1azle.jpg"
 },
 {
   "id": "70",
   "name": "Zooey Deschanel",
   "year_born": "1980",
   "bio": "Zooey Claire Deschanel is an American actress and singer-songwriter. In 1999, she made her film debut in Mumford, followed by her role as Anita Miller in Cameron Crowe's 2000 semi-autobiographical film Almost Famous.",
-  "movie_ids": ["33"],
-  "image_url": ""
+  "movie_ids": ["33", "52"],
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451924/zooey-deschanel_nlasko.jpg"
 },
 {
   "id": "71",
@@ -572,7 +564,7 @@
   "year_born": "1947",
   "bio": "Richard Thomas Griffiths, OBE was an English actor of film, television, and stage. He received the Laurence Olivier Award for Best Actor and the Drama Desk Award for Outstanding Actor in a Play, among others.",
   "movie_ids": ["42", "43", "44", "46", "48"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454696/richard-griffiths_gyjeln.jpg"
 },
 {
   "id": "73",
@@ -580,7 +572,7 @@
   "year_born": "1977",
   "bio": "Jessica Michelle Chastain is an American actress and film producer. Born in Sacramento County, California, and raised in Sacramento, Chastain developed an interest in acting from a young age.",
   "movie_ids": ["38", "15"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451919/jessica-chastain_jn3m5x.jpg"
 },
 {
   "id": "74",
@@ -588,7 +580,7 @@
   "year_born": "1982",
   "bio": "Sebastian Stan is a Romanian-American actor, known for his role as Bucky Barnes / Winter Soldier in the Marvel Cinematic Universe.",
   "movie_ids": ["38", "13", "23"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/sebastian-stan_woqaij.jpg"
 },
 {
   "id": "75",
@@ -596,7 +588,7 @@
   "year_born": "1989",
   "bio": "Daniel Jacob Radcliffe is an English actor best known for his role as Harry Potter in the film series of the same name.",
   "movie_ids": ["51","42", "43", "44", "45", "46", "47", "48", "49"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451918/daniel-radcliffe_cvekcs.jpg"
 },
 {
   "id": "72",
@@ -604,7 +596,15 @@
   "year_born": "1988",
   "bio": "Rupert Alexander Lloyd Grint is an English actor who rose to prominence playing Ron Weasley, one of the three main characters in the Harry Potter film series.",
   "movie_ids": ["42", "43", "44", "45", "46", "47", "48", "49"],
-  "image_url": ""
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451922/Rupert_Grint_yj8bds.jpg"
+},
+{
+  "id": "73",
+  "name": "Peter Dinklage",
+  "year_born": "1969",
+  "bio": "Peter Hayden Dinklage is an American actor and film producer. He first gained notice for his breakout role in the comedy-drama film The Station Agent.",
+  "movie_ids": ["52", "5"],
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454749/peter-dinklage_xcls0c.jpg"
 },
 
 ]
