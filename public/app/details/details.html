@@ -1,0 +1,34 @@
+<h3 ng-click="$parent.backToHome()">< Back</h3>
+<img ng-src="{{data.image_url}}" alt="{{data.title || data.name}}">
+
+<div class="info">
+  <h2 ng-hide="updating">{{data.title || data.name}}</h2>
+  <input ng-if="updating && update.name" type="text" ng-model="update.name">
+  <input ng-if="updating && update.title" type="text" ng-model="update.title">
+
+  <h5 ng-hide="updating">{{data.year || 'Born:' + data.year_born}}</h5>
+  <input ng-if="updating && update.name" type="text" ng-model="update.year_born" ng-value="{{data.year || data.year_born}}">
+  <input ng-if="updating && update.title" type="text" ng-model="update.year" ng-value="{{data.year || data.year_born}}">
+
+  <h5  ng-hide="updating" ng-if="data.rating">{{data.rating}}</h5>
+  <input ng-if="data.rating && updating" type="text" ng-model="update.rating">
+
+  <h5 ng-hide="updating" ng-if="data.genres">
+    <span ng-repeat="genre in data.genres">{{genre}} </span>
+  </h5>
+
+  <h5  ng-hide="updating" ng-if="data.director">{{data.director}}</h5>
+  <input ng-if="data.director && updating" type="text" ng-model="update.director">
+
+  <p ng-hide="updating">{{data.summary || data.bio}}</p>
+  <textarea ng-if="updating && update.name" ng-model="update.bio" rows="8" ng-value="{{data.summary || data.bio}}"></textarea>
+  <textarea ng-if="updating && update.title" ng-model="update.summary" rows="8" ng-value="{{data.summary || data.bio}}"></textarea>
+
+  <button ng-show="updating" ng-click="updateEntity(update)">Save Changes</button>
+  <button ng-show="updating" ng-click="cancelUpdate()">Cancel</button>
+
+  <div class="buttons">
+    <button ng-hide="updating" type="button" ng-click="updating = true">Edit details</button>
+    <button ng-click="delete()" name="button">Delete movie</button>
+  </div>
+</div>

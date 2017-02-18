@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ng-app="dmdb">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>DMDb - Movies and more</title>
+  </head>
+  <body ng-controller="mainCtrl">
+    <main>
+
+      <header>
+        <div class="logo">
+        </div>
+        <form class="search" ng-submit="search(searchTerm, searchFilter)">
+          <input type="text" ng-model="searchTerm" placeholder="Find Movies, Celebrities, and more...">
+          <select ng-model="searchFilter" >
+            <option value="">Select type...</option>
+          </select>
+
+        </form>
+        <div class="links">
+          <div ng-click="getMovies()" ng-class="{active: chosen == 'movies'}">
+            <h3>Movies</h3>
+          </div>
+          <div ng-click="getCelebs()" ng-class="{active: chosen == 'celebs'}">
+            <h3>Celebrities</h3>
+          </div>
+        </div>
+      </header>
+      <article>
+        <div class="thumbnail" thumbnail
+          data="movie" ng-if="chosen == 'movies'"
+          ng-repeat="movie in movies">
+        </div>
+        <div class="thumbnail" thumbnail
+          ng-if="chosen == 'celebs'"
+          ng-repeat="celeb in celebs">
+        </div>
+      </article>
+      <article details class="details" ng-if="chosen == 'details'"
+        data="details">
+      </article>
+      <article>
+        <div ng-if="chosen == 'results'"
+          class="thumbnail" thumbnail
+          ng-repeat="result in results" data="result">
+        </div>
+      </article>
+      <aside>
+        <div ng-if="movies">
+          <ul>
+            <li><a ng-click=""></a></li>
+            <li><a ng-click=""></a></li>
+          </ul>
+        </div>
+        <div ng-if="celebs">
+          <li><a ng-click=""></a></li>
+          <li><a ng-click=""></a></li>
+        </div>
+      </aside>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js" charset="utf-8"></script>
+    <script src="./app/app.js" charset="utf-8"></script>
+    <script src="./app/mainCtrl.js" charset="utf-8"></script>
+    <script src="./app/dataService.js" charset="utf-8"></script>
+    <script src="./app/thumbnail/thumbnail.js" charset="utf-8"></script>
+    <script src="./app/details/details.js" charset="utf-8"></script>
+  </body>
+</html>
