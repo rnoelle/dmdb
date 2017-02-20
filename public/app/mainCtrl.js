@@ -5,7 +5,6 @@ angular.module('dmdb')
         dataService.getMovies().then(function (response) {
           $scope.movies = response.data;
           $scope.chosen = 'movies';
-          console.log(response);
         })
       }
       $scope.getMovies();
@@ -32,5 +31,4 @@ angular.module('dmdb')
           $scope.results = response.data;
         })
       }
-
   })

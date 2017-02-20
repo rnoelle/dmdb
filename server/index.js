@@ -5,6 +5,7 @@ const cors = require('cors');
 const movies = require('./movies');
 // const celebs = require('./celebs');
 
+
 const app = express();
 
 app.use(bodyParser.json());
