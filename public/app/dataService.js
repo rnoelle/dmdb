@@ -1,54 +1,41 @@
 angular.module('dmdb')
   .service('dataService', function ($http) {
 
-    this.addMovie = function (movie) {
-      console.log(movie);
+    this.getMovies = function () {
       return $http({
-        method: 'POST',
-        url: '/api/movies',
-        data: movie
-      }).then(function (response) {
-        return response
-      })
+        //Fill in the blanks here:
+
+
     }
+
+
+    this.getCelebs = function () {
+      return $http({
+        //Fill in the blanks here:
+
+
+    }
+
+
+    this.addMovie = function (movie) {
+      // Fill in the blanks here:
+
+
+    }
+
 
     this.addCeleb = function (celeb) {
-      return $http({
-        method: 'POST',
-        url: '/api/celebs',
-        data: celeb
-      }).then(function (response) {
-        return response
-      })
+        // Fill in the blanks here:
+
+
     }
+
 
     this.search = function (term, filter) {
-      return $http({
-        method: 'GET',
-        url: '/api/search?search='+ term + '&type=' + filter
-      }).then(function (response) {
-        console.log(response);
-        return response;
-      })
+      //Fill in the blanks here.
+
+
     }
 
-    this.getActorsByMovie = function (id) {
-      console.log(id);
-      return $http({
-        method: 'GET',
-        url: '/api/celebs?movie=' + id
-      }).then(function (response) {
-        return response;
-      })
-    }
-
-    this.getMoviesByActor = function (id) {
-      return $http({
-        method: 'GET',
-        url: '/api/movies?actor=' + id
-      }).then(function (response) {
-        return response;
-      })
-    }
 
   })
