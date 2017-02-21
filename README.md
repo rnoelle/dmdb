@@ -1,3 +1,5 @@
+## Summary
+- You have been given a public folder with an angular movie app. You shouldn't have to change any of the code except for in dataService.js.
 
 
 ********************
