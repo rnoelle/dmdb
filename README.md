@@ -91,9 +91,8 @@ dataService.js:
        return response;
      })
    }
-```
-index.js:
-```javascript
+
+// In the index.js:
 
   app.get('celebs', function (req, res, next) {
     res.status(200).send(movies);
@@ -186,6 +185,10 @@ When it works correctly, you will be able to add a movie to your 'database' usin
   - If the filter is 'celeb', you should send back any celebrities whose names contain the search.
   - If the filter is 'director', you should send back any movies whose directors contain the search.
   - If none of these filters are found, the endpoint should return a status 404 (Not found)
+
+When it works correctly, you should be able to search using any of the filters in the search dropdown:
+![search](/screenshots/screenshot3.jpg)
+
 <details>
 <summary>See the code here</summary>
 ```javascript
@@ -218,8 +221,6 @@ app.get('/api/search', function (req, res, next) {
 })
 ```
 </details>
-When it works correctly, you should be able to search using any of the filters in the search dropdown:
-![search](/screenshots/screenshot3.jpg)
 
 
 
