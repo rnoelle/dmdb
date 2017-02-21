@@ -1,24 +1,5 @@
 angular.module('dmdb')
   .service('dataService', function ($http) {
-    
-    this.getMovies = function () {
-      return $http({
-        //Fill in the blanks here:
-        method: 'GET',
-        url: '/api/movies'
-      }).then(function (response) {
-        return response;
-      })
-    }
-    this.getCelebs = function () {
-      return $http({
-        //Fill in the blanks here:
-        method: 'GET',
-        url: '/api/celebs'
-      }).then(function (response) {
-        return response;
-      })
-    }
 
     this.addMovie = function (movie) {
       console.log(movie);
