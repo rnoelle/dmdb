@@ -147,10 +147,9 @@ dataService.js:
        return response;
      })
    }
-```
-index.js:
-```javascript
-
+  
+  // In index.js:
+  
   app.post('celebs', function (req, res, next) {
     req.body.id = celebs.length + 1;
     celebs.push(req.body)
