@@ -1,5 +1,6 @@
 angular.module('dmdb')
   .service('dataService', function ($http) {
+    
     this.getMovies = function () {
       return $http({
         //Fill in the blanks here:
@@ -46,40 +47,6 @@ angular.module('dmdb')
         url: '/api/search?search='+ term + '&type=' + filter
       }).then(function (response) {
         console.log(response);
-        return response;
-      })
-    }
-
-    this.updateCeleb = function (update) {
-      return $http({
-        method: 'PUT',
-        url: '/api/celebs/' + update.id,
-        data: update
-      })
-    }
-
-    this.updateMovie = function (update) {
-      return $http({
-        method: 'PUT',
-        url: '/api/movies/' + update.id,
-        data: update
-      })
-    }
-
-    this.deleteCeleb = function (id) {
-      return $http({
-        method: 'DELETE',
-        url: '/api/celebs/' + id,
-      }).then(function (response) {
-        return response;
-      })
-    }
-
-    this.deleteMovie = function (id) {
-      return $http({
-        method: 'DELETE',
-        url: '/api/movies/' + id,
-      }).then(function (response) {
         return response;
       })
     }
