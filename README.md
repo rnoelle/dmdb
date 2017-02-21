@@ -185,7 +185,38 @@ When it works correctly, you will be able to add a movie to your 'database' usin
   - If the filter is 'celeb', you should send back any celebrities whose names contain the search.
   - If the filter is 'director', you should send back any movies whose directors contain the search.
   - If none of these filters are found, the endpoint should return a status 404 (Not found)
-
+<details>
+<summary>See the code here</summary>
+```javascript
+app.get('/api/search', function (req, res, next) {
+  if (req.query.type == 'movie') {
+    var results = movies.filter(function (el) {
+      return el.title
+                .toLowerCase()
+                .indexOf(req.query.search.toLowerCase()) > -1;
+    })
+    return res.status(200).send(results);
+  }
+  if (req.query.type == 'celeb') {
+    var results = celebs.filter(function (el) {
+      return el.name
+                .toLowerCase()
+                .indexOf(req.query.search.toLowerCase()) > -1;
+    })
+    return res.status(200).send(results);
+  }
+  if (req.query.type == 'director') {
+    var results = movies.filter(function (el) {
+      return el.director
+                .toLowerCase()
+                .indexOf(req.query.search.toLowerCase()) > -1;
+    })
+    return res.status(200).send(results);
+  }
+  res.status(404).send()
+})
+```
+</details>
 When it works correctly, you should be able to search using any of the filters in the search dropdown:
 ![search](/screenshots/screenshot3.jpg)
 
