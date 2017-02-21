@@ -1,6 +1,6 @@
 [{
   "id": "1",
-  "name": "Michael Fassbeder",
+  "name": "Michael Fassbender",
   "year_born": "1977",
   "bio": "Michael Fassbender is an Irish-German actor. Fassbender's feature film debut was in the fantasy war epic 300 as a Spartan warrior; his earlier roles included various stage productions.",
   "movie_ids": ["1","2", "3", "5"],
@@ -423,6 +423,14 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454102/will-ferrell_iiofvp.jpg"
 },
 {
+  "id": "54",
+  "name": "Peter Dinklage",
+  "year_born": "1969",
+  "bio": "Peter Hayden Dinklage is an American actor and film producer. He first gained notice for his breakout role in the comedy-drama film The Station Agent.",
+  "movie_ids": ["52", "5"],
+  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454749/peter-dinklage_xcls0c.jpg"
+},
+{
   "id": "55",
   "name": "Cobie Smulders",
   "year_born": "1982",
@@ -455,7 +463,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451918/ewan-mcgregor_cfj0wg.jpg"
 },
 {
-  "id": "58",
+  "id": "59",
   "name": "Chris Pine",
   "year_born": "1980",
   "bio": "Christopher Whitelaw \"Chris\" Pine is an American actor. He is known for his role as James T. Kirk in Star Trek, Star Trek Into Darkness, and Star Trek Beyond.",
@@ -463,7 +471,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454153/chris-pine_ywmhae.jpg"
 },
 {
-  "id": "59",
+  "id": "60",
   "name": "Zachary Quinto",
   "year_born": "1977",
   "bio": "Zachary John Quinto is an American actor and film producer. He is best known for his roles as Sylar on the science fiction drama series Heroes, Spock in the reboot Star Trek.",
@@ -471,7 +479,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451924/zachary-quinto_voe4o9.jpg"
 },
 {
-  "id": "60",
+  "id": "61",
   "name": "Zoe Saldana",
   "year_born": "1978",
   "bio": "Zoe Saldana-Perego, known professionally as Zoe Saldana, is an American actress and dancer. Following her performances with the FACES theater group, Saldana made her screen debut in an episode of Law & Order.",
@@ -479,7 +487,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451924/Zoe-Saldana_sx65ig.jpg"
 },
 {
-  "id": "61",
+  "id": "62",
   "name": "Johnny Depp",
   "year_born": "1963",
   "bio": "John Christopher \"Johnny\" Depp II is an American actor, producer, and musician. He has won the Golden Globe Award and Screen Actors Guild Award for Best Actor.",
@@ -487,7 +495,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451920/johnny-depp_vtjoae.jpg"
 },
 {
-  "id": "62",
+  "id": "63",
   "name": "Harrison Ford",
   "year_born": "1942",
   "bio": "Harrison Ford is an American actor and film producer. He gained worldwide fame for his starring roles as Han Solo in the Star Wars film series and as the title character of the Indiana Jones film series.",
@@ -495,7 +503,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451919/harrison-ford_ofy9d1.jpg"
 },
 {
-  "id": "63",
+  "id": "64",
   "name": "Shia LaBeouf",
   "year_born": "1986",
   "bio": "Shia Saide LaBeouf is an American actor, performance artist, and filmmaker. He became known among younger audiences as Louis Stevens in the Disney Channel series Even Stevens.",
@@ -503,7 +511,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/Shia_Labeouf_bgwksp.jpg"
 },
 {
-  "id": "64",
+  "id": "65",
   "name": "Karen Allen",
   "year_born": "1951",
   "bio": "Karen Jane Allen is an American actress. She is best known for her performances as Marion Ravenwood in Raiders of the Lost Ark and Indiana Jones and the Kingdom of the Crystal Skull, along with other film work.",
@@ -511,7 +519,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451920/karen-allen_sfix4z.jpg"
 },
 {
-  "id": "65",
+  "id": "66",
   "name": "Frank Oz",
   "year_born": "1970",
   "bio": "Frank Oz is an English-born American puppeteer, filmmaker and actor. His career began as a puppeteer, where he performed the Muppet characters of Miss Piggy and Fozzie Bear in The Muppet Show, and Cookie Monster, Bert, and Grover in Sesame Street.",
@@ -519,7 +527,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451918/Frank_oz_xst6zu.jpg"
 },
 {
-  "id": "66",
+  "id": "67",
   "name": "Emma Watson",
   "year_born": "1990",
   "bio": "Emma Charlotte Duerre Watson is a British actress, model, and activist. Born in Paris and brought up in Oxfordshire, Watson attended the Dragon School as a child and trained as an actress at the Oxford branch of Stagecoach Theatre Arts.",
@@ -543,7 +551,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454584/alan-rickman_gtwnow.jpg"
 },
 {
-  "id": "69",
+  "id": "70",
   "name": "Timothy Spall",
   "year_born": "1957",
   "bio": "Timothy Leonard Spall, OBE is an English character actor and occasional presenter. He became a household name in the UK after appearing in the 1983 ITV comedy-drama series Auf Wiedersehen, Pet.",
@@ -551,7 +559,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451923/Timothy-Spall_p1azle.jpg"
 },
 {
-  "id": "70",
+  "id": "71",
   "name": "Zooey Deschanel",
   "year_born": "1980",
   "bio": "Zooey Claire Deschanel is an American actress and singer-songwriter. In 1999, she made her film debut in Mumford, followed by her role as Anita Miller in Cameron Crowe's 2000 semi-autobiographical film Almost Famous.",
@@ -559,7 +567,7 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451924/zooey-deschanel_nlasko.jpg"
 },
 {
-  "id": "71",
+  "id": "72",
   "name": "Richard Griffiths",
   "year_born": "1947",
   "bio": "Richard Thomas Griffiths, OBE was an English actor of film, television, and stage. He received the Laurence Olivier Award for Best Actor and the Drama Desk Award for Outstanding Actor in a Play, among others.",
@@ -591,19 +599,11 @@
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451918/daniel-radcliffe_cvekcs.jpg"
 },
 {
-  "id": "72",
+  "id": "76",
   "name": "Rupert Grint",
   "year_born": "1988",
   "bio": "Rupert Alexander Lloyd Grint is an English actor who rose to prominence playing Ron Weasley, one of the three main characters in the Harry Potter film series.",
   "movie_ids": ["42", "43", "44", "45", "46", "47", "48", "49"],
   "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487451922/Rupert_Grint_yj8bds.jpg"
-},
-{
-  "id": "73",
-  "name": "Peter Dinklage",
-  "year_born": "1969",
-  "bio": "Peter Hayden Dinklage is an American actor and film producer. He first gained notice for his breakout role in the comedy-drama film The Station Agent.",
-  "movie_ids": ["52", "5"],
-  "image_url": "https://res.cloudinary.com/dyw4edyuf/image/upload/v1487454749/peter-dinklage_xcls0c.jpg"
 }
 ]

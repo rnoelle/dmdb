@@ -29,6 +29,12 @@
 
   <div class="buttons">
     <button ng-hide="updating" type="button" ng-click="updating = true">Edit details</button>
-    <button ng-click="delete()" name="button">Delete movie</button>
+    <button ng-click="delete(data.id)" name="button">Delete</button>
+  </div>
+
+</div>
+<div class="references">
+  <div class="thumbnail" thumbnail ng-repeat="reference in references" data="reference">
+
   </div>
 </div>

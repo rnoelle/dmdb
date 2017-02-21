@@ -7,7 +7,26 @@ angular.module('dmdb')
         data: '='
       },
       controller: function($scope, dataService) {
+
+        $scope.openDetails = function (data) {
+          $scope.$parent.openDetails(data)
+        }
         $scope.update = Object.assign({}, $scope.data);
+
+        var getReferences = function () {
+          if ($scope.data.title) {
+            dataService.getActorsByMovie($scope.data.id).then(function (response) {
+              $scope.references = response.data;
+            })
+          } else {
+            dataService.getMoviesByActor($scope.data.id).then(function (response) {
+              $scope.references = response.data;
+            })
+          }
+        }
+        $scope.$watch('data', function (a,b) {
+          getReferences()
+        })
 
         $scope.cancelUpdate = function () {
           $scope.update = Object.assign({}, $scope.data);
@@ -16,18 +35,27 @@ angular.module('dmdb')
 
         $scope.updateEntity = function(update) {
           if (update.title) {
-            dataService.updateMovie(update).then(function(response) {
-              return response;
+            dataService.updateMovie(update)
+          } else {
+            dataService.updateCeleb(update)
+          }
+
+          Object.assign($scope.data, $scope.update);
+          $scope.updating = false;
+        }
+
+        $scope.delete = function (id) {
+          if ($scope.data.title) {
+            dataService.deleteMovie(id).then(function (response) {
+              $scope.$parent.getMovies()
             })
           } else {
-            dataService.updateCeleb(update).then(function(response) {
-              return response;
+            dataService.deleteCeleb(id).then(function (repsonse) {
+              $scope.$parent.getCelebs()
             })
           }
-          
-          Object.assign($scope.data, $scope.update);
-          $scope.editing = false;
         }
+
       }
     }
   })

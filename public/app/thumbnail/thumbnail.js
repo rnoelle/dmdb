@@ -4,7 +4,6 @@ angular.module('dmdb')
       restrict: 'EA',
       templateUrl: './app/thumbnail/thumbnail.html',
       scope: {
-        type: '=',
         data: '='
       }
     }

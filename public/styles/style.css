@@ -5,6 +5,7 @@
 body {
   padding-top: 10vh;
   padding-bottom: 10vh;
+  background-image: url('/assets/background.png');
 }
 main {
   background: #333333;
@@ -14,6 +15,7 @@ main {
   margin: auto;
   border-top-right-radius: 2px;
   border-top-left-radius: 2px;
+  position: relative;
 }
 header {
   background: linear-gradient(to bottom, #646464 0%,#0e0e0e 100%);
@@ -24,7 +26,27 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+aside {
+  width: 24%;
+  position: absolute;
+  top: 15vh;
+  left: 77%;
+}
+aside li {
+  margin: .25rem 0;
+  list-style: none;
+}
+aside a {
+  color: rgb(67, 187, 177);
+}
+aside a:hover {
+  cursor: pointer;
+  color: rgb(77, 197, 187);
+}
 
+aside hr {
+  border-color: rgba(0, 0, 0, 0);
+}
 .search {
   width: 65%;
 }
@@ -117,7 +139,7 @@ article.details {
   margin-right: 1rem;
 }
 .details h3 {
-  height: 80vh;
+  height: 20vh;
   float: left;
   cursor: pointer;
   margin-right: 1rem;
@@ -164,4 +186,65 @@ textarea {
 .details button:hover {
   cursor: pointer;
   opacity: .85;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(86, 86, 86, 0.48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal form {
+  width: 40vw;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(35, 35, 35);
+  border-radius: 3px;
+  padding: 20px;
+}
+.modal form input {
+  display: block;
+  margin: 3px 0;
+  -webkitz-box-shadow: 1px 1px 1px rgba(0,0,0,0.4) inset;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.4) inset;
+  font: 14px Verdana, Arial, sans-serif;
+  height: 19px;
+  padding: 5px 8px;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+.modal form textarea {
+  width: 100%;
+}
+
+.modal form button {
+  background: rgb(163, 35, 21);
+  border: none;
+  padding: .65rem;
+  border-radius: 5px;
+  color: white;
+  float: left;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+.modal form button:hover {
+cursor: pointer;
+opacity: .85;
+}
+.references {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 15vh;
+  flex-wrap: wrap;
+}
+.references .thumbnail {
+  margin: 5px;
 }

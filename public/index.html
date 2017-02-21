@@ -10,12 +10,11 @@
     <main>
 
       <header>
-        <div class="logo">
+        <div class="logo" ng-click="getMovies()">
         </div>
         <form class="search" ng-submit="search(searchTerm, searchFilter)">
-          <input type="text" ng-model="searchTerm" placeholder="Find Movies, Celebrities, and more...">
-          <select ng-model="searchFilter" >
-            <option value="">Select type...</option>
+          <input type="text" auto-complete ng-model="searchTerm" placeholder="Find Movies, Celebrities, and more...">
+          <select ng-model="searchFilter" ng-options="option.value as option.label for option in options">
           </select>
 
         </form>
@@ -31,11 +30,11 @@
       <article>
         <div class="thumbnail" thumbnail
           data="movie" ng-if="chosen == 'movies'"
-          ng-repeat="movie in movies">
+          ng-repeat="movie in movies | orderBy: order | limitTo: 24">
         </div>
         <div class="thumbnail" thumbnail
-          ng-if="chosen == 'celebs'"
-          ng-repeat="celeb in celebs">
+          data="celeb" ng-if="chosen == 'celebs'"
+          ng-repeat="celeb in celebs | orderBy: order | limitTo: 24">
         </div>
       </article>
       <article details class="details" ng-if="chosen == 'details'"
@@ -48,24 +47,53 @@
         </div>
       </article>
       <aside>
-        <div ng-if="movies">
+        <div ng-if="chosen == 'movies'">
           <ul>
-            <li><a ng-click=""></a></li>
-            <li><a ng-click=""></a></li>
+            <li><a ng-click="toggleModal()">Add a new movie</a></li>
+            <hr>
+            <li><a ng-click="updateOrder('-year')">Newest First</a></li>
+            <li><a ng-click="updateOrder('year')">Oldest First</a></li>
           </ul>
         </div>
-        <div ng-if="celebs">
-          <li><a ng-click=""></a></li>
-          <li><a ng-click=""></a></li>
+        <div ng-if="chosen == 'celebs'">
+          <li><a ng-click="toggleModal()">Add a celebrity</a></li>
+          <hr>
+          <li><a ng-click="updateOrder('year_born')">Oldest first</a></li>
+          <li><a ng-click="updateOrder('-year_born')">Youngest first</a></li>
         </div>
       </aside>
     </main>
 
+    <div class="modal" ng-show="adding">
+      <form>
+        <input ng-if="adding && chosen == 'celebs'" type="text" ng-model="entity.name" placeholder="Name">
+        <input ng-if="adding && chosen == 'movies'" type="text" ng-model="entity.title" placeholder="Title">
+
+        <input ng-if="adding && chosen == 'celebs'" type="text" ng-model="entity.year_born" placeholder="Year born">
+        <input ng-if="adding && chosen == 'movies'" type="text" ng-model="entity.year" placeholder="Year released">
+
+        <input ng-if="chosen == 'movies' && adding" type="text" ng-model="entity.rating" placeholder="Movie Rating (ex. PG-13)">
+
+        <input ng-if="chosen == 'movies' && adding" type="text" ng-model="entity.director" placeholder="Director">
+
+        <input type="text" ng-model="entity.image_url" placeholder="Image Url">
+
+        <textarea ng-if="adding && chosen == 'celebs'" ng-model="entity.bio" rows="8" placeholder="Add bio here"></textarea>
+        <textarea ng-if="adding && chosen == 'movies'" ng-model="entity.summary" rows="8" placeholder="Add summary here"></textarea>
+
+        <div class="buttons">
+          <button ng-show="adding" ng-click="addEntity(entity)">Add</button>
+          <button ng-show="adding" ng-click="toggleModal()">Cancel</button>
+        </div>
+
+      </form>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js" charset="utf-8"></script>
     <script src="./app/app.js" charset="utf-8"></script>
     <script src="./app/mainCtrl.js" charset="utf-8"></script>
     <script src="./app/dataService.js" charset="utf-8"></script>
     <script src="./app/thumbnail/thumbnail.js" charset="utf-8"></script>
     <script src="./app/details/details.js" charset="utf-8"></script>
+
   </body>
 </html>
