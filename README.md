@@ -1,7 +1,7 @@
 ## Summary
-- You have been given a public folder with an angular movie app. You shouldn't have to change any of the code except for in dataService.js (inside the app folder).
-- Go there now and you will see hollow functions. Each of these needs to be filled in for the app to work.
-- You also should have a server folder with two JSON files which will hold the data for this project.
+- You will be building the server for DevMoutain's Movie Database, DMDb. You have been given a public folder with a pre-built angular app. You shouldn't have to change any of the code there except in dataService.js (inside the app folder). Here you will write API calls to interact with the backend.
+- Go to dataService.js now and you will see hollow functions. Each of these will need to be filled in for the app to work.
+- You also should have a server folder with two JSON files which will hold the data for this project. You will be creating a server in this file that will complete the functionality of our app.
 
 
 ## Server Setup
@@ -229,5 +229,5 @@ app.get('/api/search', function (req, res, next) {
 
 - In the details folder, in details.js, find the line that is commented out and uncomment it out.
 - Write two functions in dataService.js - one called getMoviesByActor and another called getActorsByMovie. They will each take in one parameter (an id), and should make http requests to the server. Once these return the proper data, you should have working references on each of your detail pages. Try to use your original GET endpoints, but now with queries.
-  - getMoviesByActor will call an endpoint which you will create on your server. This endpoint should send back all movies that actor was in. (All movie objects whose id is in the actor's )
+  - getMoviesByActor will call an endpoint which you will create on your server. This endpoint should send back all movies that actor was in (all movie objects whose id is in the actor's movie_id array).
   - getActorsByMovie will be the same, but get all actors in a particular movie.
