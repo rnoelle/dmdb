@@ -25,7 +25,8 @@ angular.module('dmdb')
           }
         }
         $scope.$watch('data', function (a,b) {
-          getReferences()
+          // TODO:  
+          // getReferences() --  UNCOMMENT THIS LINE FOR BLACK DIAMOND
         })
 
         $scope.cancelUpdate = function () {
