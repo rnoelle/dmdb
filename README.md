@@ -1,6 +1,12 @@
 ## Summary
-- You have been given a public folder with an angular movie app. You shouldn't have to change any of the code except for in dataService.js.
+- You have been given a public folder with an angular movie app. You shouldn't have to change any of the code except for in dataService.js (inside the app folder).
+- Go there now and you will see hollow functions. Each of these needs to be filled in for the app to work.
+- You also should have a server folder with two JSON files which will hold the data for this project.
 
+
+## Server Setup
+- Initialize the project folder with npm to create a package.json file.
+- Use ```npm install``` to add express, 
 
 ********************
 ##Black Diamond
