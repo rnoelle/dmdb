@@ -5,7 +5,7 @@
 
 
 ## Server Setup
-Make an index.js file and create a basic node server, using npm install to get the packages you need.
+- Make an index.js file and create a basic node server, using npm install to get the packages you need.
 1. Initialize the project folder with npm to create a package.json file.
 2. Use `npm install` to add express and body-parser to your project.
 3. Require each of these and save them to variables in your index.js file.
