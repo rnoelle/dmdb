@@ -48,7 +48,7 @@ angular.module('dmdb')
           })
         }
       }
-
+      $scope.order = '-id'
       $scope.updateOrder = function (value) {
         $scope.order = value;
       }
