@@ -9,56 +9,67 @@ Here we will be creating the basic express server - this server will connect to 
 
 ### Detailed Instructions
 - Make an index.js file and create a basic node server, using npm install to get the packages you need.
-1. Initialize the project folder with npm to create a package.json file.
-2. Use `npm install` to add express and body-parser to your project.
-3. Require each of these and save them to variables in your index.js file.
+- Initialize the project folder with npm to create a package.json file.
+- Use `npm install` to add express and body-parser to your project.
+- Require each of these and save them to variables in your index.js file.
+
 <details>
- <summary>Solution</summary>
- ```javascript
+<summary>Solution</summary>
+ ````javascript
   var express = require('express');
   var bodyParser = require('body-parser');
- ```
+ ````
 </details>
-4. Require each of the JSON files as well: ie `var movies = require('./movies');`
-5. Use express to initialize your app.
+
+- Require each of the JSON files as well: ie `var movies = require('./movies');`
+- Use express to initialize your app.
+
 <details>
- <summary>Solution</summary>
+<summary>Solution</summary>
  ```javascript
   var app = express();
  ```
 </details>
-6. Make sure to use body parser to process requests made to your server.
+
+- Make sure to use body parser to process requests made to your server.
+
 <details>
- <summary>Solution</summary>
+<summary>Solution</summary>
  ```javascript
   app.use(bodyParser.json())
  ```
 </details>
-7. Have express serve the public folder to the client using express.static.
+
+- Have express serve the public folder to the client using express.static.
+
 <details>
- <summary>Solution</summary>
+<summary>Solution</summary>
  ```javascript
   app.use(express.static('../public'))
  ```
 </details>
-8. Have your app listen on port 3000, and console.log a message when it's working.
+
+- Have your app listen on port 3000, and console.log a message when it's working.
+
 <details>
- <summary>Solution</summary>
+<summary>Solution</summary>
  ```javascript
   app.listen(3000, function () {
     console.log('listening on port', 3000)
   })
  ```
-</details>
-9. Start up nodemon and make sure everything is working correctly - you should see your console.log message in the terminal!
+ </details>
+ 
+- Start up nodemon and make sure everything is working correctly - you should see your console.log message in the terminal!
 
 
 ## Step 2
 In this step, we will fill in the getMovies and getCelebs function in the dataService, then create cooresponding endpoints that send back all movies and all celebrities respectively.
 ### Detailed Instructions
 - Our front-end should be getting a list of movies from the server. Find the getMovies function in dataService.js. Fill it in to return an http GET request to `/api/movies`. Have this function return the response.
+
 <details>
- <summary>Solution</summary>
+<summary>Solution</summary>
  ```javascript
   this.getMovies = function () {
     return $http({
@@ -71,18 +82,22 @@ In this step, we will fill in the getMovies and getCelebs function in the dataSe
 
  ```
 </details>
+
 - In index.js, let's write the endpoint for the front end to request. This endpoint needs to accept get requests at '/api/movies', and should respond with a status 200 and should send the entire movies.json.
+
 <details>
- <summary>Solution</summary>
+<summary>Solution</summary>
  ```javascript
   app.get('movies', function (req, res, next) {
     res.status(200).send(movies);
   })
  ```
 </details>
+
 - Do the same for getCelebs and write a cooresponding endpoint which sends back a status 200 and the celebs JSON. If you looked at the solutions for getMovies, try to do this step on your own.
+
 <details>
- <summary>Solution</summary>
+<summary>Solution</summary>
 dataService.js:
  ```javascript
 this.getCelebs = function () {
@@ -110,7 +125,7 @@ Here we will fill in the addMovie and addCeleb functions in our dataService - ea
 - Go in dataService.js to the function, addMovie. You can see that this function will take one parameter: movie. An object with all the data for the new movie will be passed in here. Fill in the function to make a 'POST' request to '/api/movies'. The data should be the movie object passed in as the parameter.
 
 <details>
- <summary>Solution</summary>
+<summary>Solution</summary>
  ```javascript
   this.addMovie = function (movie) {
     return $http({
@@ -128,7 +143,7 @@ Here we will fill in the addMovie and addCeleb functions in our dataService - ea
 - Let's go to the server and add an endpoint that accepts post requests at '/api/movies'. This should add an id property to the object sent in the req.body and then push that object into the array in movies.json. (This won't change the actual file, but should save the movie until you restart your server again.) The id should always increment, depending on how many movies are in the array. Send back the new movie object in the server's response. If you want to push yourself, have your server check to make sure the object is in the correct format before pushing to the array - send back an error if it isn't in the correct format.
 
 <details>
- <summary>Solution</summary>
+<summary>Solution</summary>
  ```javascript
   app.post('movies', function (req, res, next) {
     req.body.id = movies.length + 1;
@@ -141,7 +156,7 @@ Here we will fill in the addMovie and addCeleb functions in our dataService - ea
 - Do the same with the addCeleb function and its corresponding endpoint. If you looked at the solutions for addMovie, try to do this step on your own.
 
 <details>
- <summary>Solution</summary>
+<summary>Solution</summary>
 
  ```javascript
   //  dataService.js:
@@ -174,8 +189,9 @@ In this step, we will be adding search functionality. We will fill in the search
 ### Detailed Instructions
 - Go in dataService.js to the search function. You can see that this function takes in two parameters: term and filter. The term will be whatever the user submits in the search bar. The filter will determine what to search for (it will be selected by the dropdown beside the search bar). The filter could be one of three things: `'movie'`, `'celeb'`, or `'director'`.
 - Have the search function make an http GET request to '/api/search'. Using the parameters, you should add two queries to the url, one term query with the term parameter as the value and one for the filter with the filter parameter as the value.
+
 <details>
- <summary>Solution</summary>
+<summary>Solution</summary>
  ```javascript
   this.search = function (term, filter) {
     return $http({
@@ -188,6 +204,7 @@ In this step, we will be adding search functionality. We will fill in the search
 
  ```
 </details>
+
 - In your server, you will need to make an endpoint that accepts 'GET' requests at '/api/search'. We will need to check to see what the filter query is in order to decide what to send back.
   - If the filter is 'movie', you should send back any movies whose titles contain the search term. Here, challenge yourself to make the search support partial matches (using indexOf) and case insensitive.
   - If the filter is 'celeb', you should send back any celebrities whose names contain the search. Again, you can challenge yourself to make it case insensitive and include partial matches.
